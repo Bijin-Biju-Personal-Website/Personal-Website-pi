@@ -1,0 +1,46 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+h2 {
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
+nav {
+    float: top;
+    color: black;
+    font-size: 2em;
+
+  }
+
+body {
+    position: center;
+    padding: 10px 5px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    max width: 100px;
+    box-shadow: 1px 1px 1px 1px blue;
+}
+
+  header {
+    font-size: 30px;
+    position: center;
+    padding: 10px 5px;
+    box-shadow: 1px 1px 1px 1px blue;
+    text-align: center;
+    color: white;
+    background-image: url("bgimg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: black;
+   }
+   header::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
