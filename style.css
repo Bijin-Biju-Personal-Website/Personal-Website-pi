@@ -25,7 +25,11 @@ body {
     box-shadow: 1px 1px 1px 1px blue;
 }
 
-  header {
+form {
+  padding: 40px;
+}
+
+header {
     font-size: 30px;
     position: center;
     padding: 10px 5px;
@@ -38,7 +42,7 @@ body {
     background-position: center;
     background-color: black;
    }
-   header::after {
+header::after {
     display: block;
     clear: both;
     content: '';
